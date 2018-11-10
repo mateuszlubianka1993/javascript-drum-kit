@@ -1,0 +1,58 @@
+body {
+    background-image: url(../img/bacground1.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #ffc600;
+    font-size: 4.2rem;
+}
+
+.drum-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+.key {
+    width: 80px;
+    height: 120px;
+    border: 5px solid #000;
+    border-radius: 8px;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: all 0.07s;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.play {
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.clear {
+    clear: both;
+}
+
+kbd, .sound {
+    display: block;
+    text-align: center;
+}
+
+kbd {
+    font-size: 70px; 
+    color: #fff;
+}
+
+.sound {
+    color: #ffc600;
+}
+
+.footer-box {
+    float: left;
+}
