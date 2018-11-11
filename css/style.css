@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/bacground1.jpeg);
+    background-image: url(../img/background1.jpeg);
     background-size: cover;
 }
 
@@ -14,6 +14,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 150px;
+/*    padding-bottom: 150px;*/
 }
 
 .key {
@@ -53,6 +54,23 @@ kbd {
     color: #ffc600;
 }
 
-.footer-box {
-    float: left;
+.footer-box p {
+    text-align: center;
+}
+
+.footer-box a {
+    text-decoration: none;
+    color: green;
+}
+
+.footer-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffc600;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
 }
